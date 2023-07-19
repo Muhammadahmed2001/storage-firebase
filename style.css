@@ -83,6 +83,11 @@ body{
   color: #44476a;
   font-weight: 400;
   font-size: 16px;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  
+
 }
 .wrapper .social-icons{
   margin: 15px 0 25px 0;
@@ -106,7 +111,7 @@ body{
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #ecf0f3;
+  background: #ff0000;
   box-shadow: inset -3px -3px 7px #ffffff,
               inset 3px 3px 5px #ceced1;
 }
@@ -138,6 +143,7 @@ body{
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .buttons button{
   position: relative;
@@ -151,6 +157,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
   z-index: 4;
+  background-color: darkkhaki;
 }
 .buttons button:first-child{
   margin-right: 10px;
